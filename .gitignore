@@ -1,0 +1,8 @@
+.DS_Store
+.next
+.vscode
+.env
+.env.build
+coverage/
+node_modules/
+tmp/

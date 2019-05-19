@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "name": "spotify-browser",
+  "alias": "spotify-browser",
+  "builds": [{ "src": "next.config.js", "use": "@now/next" }],
+  "build": {
+    "env": { "CLIENT_ID": "@client-id" }
+  }
+}
