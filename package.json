@@ -6,22 +6,25 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
-    "deploy": "now"
+    "start": "next start"
   },
   "author": "mjlescano",
   "license": "UNLICENSED",
   "dependencies": {
     "dotenv": "8.0.0",
+    "localforage": "1.7.3",
     "next": "8.1.0",
+    "query-string": "6.5.0",
     "react": "16.8.6",
-    "react-dom": "16.8.6"
+    "react-dom": "16.8.6",
+    "react-sigma": "1.2.30"
   },
   "devDependencies": {
     "babel-eslint": "10.0.1",
     "eslint": "5.16.0",
     "eslint-config-prettier": "4.3.0",
     "eslint-plugin-prettier": "3.1.0",
+    "eslint-plugin-react": "7.13.0",
     "now": "15.2.0",
     "prettier": "1.17.1"
   }
